@@ -1,0 +1,120 @@
+@import url(http://fonts.googleapis.com/css?family=Courgette);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+*{
+box-sizing:border-box;
+}
+body{
+	margin:0;
+	background: #FFF;
+	font-family: "Courgette",cursive;
+}
+
+.titulo{
+	color:#F9CC00;
+	text-align: center;
+	background: #000;
+	width: 80%;
+	margin: auto;
+	padding: 12px;
+	font-size: 27px;
+}
+
+h1 {
+  text-align: center;
+  color:#1f1f1f;
+}
+.usuario{
+	margin-top: -8px;
+	box-sizing:border-box;
+	background-color: #fff;
+	width: 80%;
+	padding: 6px;
+	text-align: center;
+	margin:2% 10%;
+}
+.usuario a{
+	text-decoration: none;
+	color: #000;
+}
+
+/*******MEDIAS QUERIS*******/
+
+@media (min-width:768px){
+	.bienvenida{
+
+    background: #263238;
+    padding: 0em;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+	}
+	.titulo{
+		font-size: 24x;
+	width: 20%;
+	background: none;
+		font-family: "Courgette",cursive;
+		text-align: center;
+		color: #fff;
+
+	}
+	.usuario{
+		width: 30%;
+		background: none;
+		font-size: 16px;
+		text-align: center;
+		font-family: "Courgette",cursive;
+	}
+	.usuario a{
+		color: #fff;
+	}
+	.menuMainContainer{
+		background: none;
+		width: 100%;
+		height: 50px;
+	
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		
+		}
+	.elementosMenu{
+		width: 50%;
+		background: white;
+		color:#fff;
+		text-align: center;
+		height:50px;
+		align-content: center;
+		display: flex;
+		flex-wrap: wrap;
+
+	}
+	.elementosMenu div{
+	cursor: pointer;
+		font-size: 18px;
+		text-align: center;
+		width: 100%;
+		padding: 14px;
+		
+	}
+	#menu1{
+		background:#673AB7;
+		transition: all 0.5s;
+		
+	}
+	#menu2{
+		background: #E91E63;
+	}
+	.menuActivo{
+		box-shadow:  0 -4px #4A148C inset;
+		color:#fff;
+
+	}
+
+}
+
+
+
